@@ -12,4 +12,4 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
 
 
-add_executable(UPlatform UPlatform.hpp source.cpp)
+add_executable(UPlatform UPlatform.hpp source.cpp Common/WindowDesc.cpp Common/WindowDesc.hpp Common/Window.cpp Common/Window.hpp Windows/Windows_Window.cpp Windows/Windows_Window.hpp Linux/Linux_Window.cpp Linux/Linux_Window.hpp Common/EventType.cpp Common/EventType.hpp Common/Event.cpp Common/Event.hpp Common/EventData.cpp Common/EventData.hpp Common/EventQueue.cpp Common/EventQueue.hpp)

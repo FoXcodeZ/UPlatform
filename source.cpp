@@ -1,6 +1,3 @@
-//
-// Created by kitsune on 09.07.22.
-//
 #include <iostream>
 
 int main()
